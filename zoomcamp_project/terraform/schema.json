@@ -1,0 +1,123 @@
+[
+    {
+      "name": "time",
+      "type": "TIMESTAMP",
+      "mode": "REQUIRED"
+    },
+    {
+      "name": "latitude",
+      "type": "FLOAT64",
+      "mode": "REQUIRED"
+    },
+    {
+      "name": "longitude",
+      "type": "FLOAT64",
+      "mode": "REQUIRED"  
+    },
+    {
+      "name": "depth",
+      "type": "FLOAT64",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "mag",
+      "type": "FLOAT64",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "magType_lower",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "nst",
+      "type": "INT64",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "gap",
+      "type": "FLOAT64",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "dmin",
+      "type": "FLOAT64",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "rms",
+      "type": "FLOAT64",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "net",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "id",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "updated",
+      "type": "TIMESTAMP",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "place",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "type",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "horizontalError",
+      "type": "FLOAT64",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "depthError",
+      "type": "FLOAT64",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "magError",
+      "type": "FLOAT64",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "magNst",
+      "type": "INT64",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "status",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "locationSource",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "magSource",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "depthError_percent",
+      "type": "FLOAT64",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "magError_percent",
+      "type": "FLOAT64",
+      "mode": "NULLABLE"
+    }
+  ]
+  
